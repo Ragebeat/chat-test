@@ -53,7 +53,7 @@ const generateBotResponse = async (incomingMessageDiv) => {
 
   try {
     // Fetch bot response from API
-    const response = await fetch("https://n8n-1-66n3.onrender.com/webhook/64f21a4c-ba65-4d47-83ee-8aabc1b1a086", requestOptions);
+    const response = await fetch("https://n8n-1-66n3.onrender.com/webhook/ae436e1f-f391-4f63-8b90-c4bca86af277", requestOptions);
     const data = await response.json();
     if (!response.ok) throw new Error(data.error.message);
 
